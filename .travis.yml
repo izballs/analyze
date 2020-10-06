@@ -4,4 +4,5 @@ python  :
 install:
     - pip install -r requirements.txt
 script:
-    - python -m pytest -v
+    - export FLASK_APP=analyze
+    - flask run

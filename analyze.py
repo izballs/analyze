@@ -24,3 +24,6 @@ def analyze():
         returnJson = {'textLength': {'withSpaces': withLength, "withoutSpaces":withoutLength}, "wordCount": wordCount, "characterCount":letterCountHolder}
         return returnJson
 
+@app.route('/')
+def index():
+    return "<h1>Analyze Dream Broker</h1><p>Code Challenge</p>"
