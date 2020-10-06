@@ -26,7 +26,7 @@ def analyze():
 
 @app.route('/')
 def index():
-    return "<h1>Analyze Dream Broker</h1><p>Code Challenge</p>"
+    return "<h1>Analyze Dream Broker</h1><p>Code Challenge</p><p>Post your json to https://analyzedreambroker.herokuapp.com/analyze in format of \"text\":\"Your text\"</p>"
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
