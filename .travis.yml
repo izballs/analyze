@@ -1,4 +1,7 @@
 language: python
-rvm:
-    - 3.8
-    - flask
+python  :
+    - "3.6"
+install:
+    - pip install flask
+script:
+    - python3 analyze.py
