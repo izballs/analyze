@@ -1,9 +1,14 @@
-from flask import Flask, request
+from flask import Flask, request, Blueprint
+import re
 import json
 import collections
 
-app = Flask(__name__)
 
+def create_app():
+    app = Flask(__name__)
+    return app
+
+app = create_app()
 
 @app.route("/analyze", methods=["POST"])
 def analyze():
@@ -19,5 +24,3 @@ def analyze():
         returnJson = {'textLength': {'withSpaces': withLength, "withoutSpaces":withoutLength}, "wordCount": wordCount, "characterCount":letterCountHolder}
         return returnJson
 
-if __name__ == "__main__":
-        app.run(host="0.0.0.0", port="80")
