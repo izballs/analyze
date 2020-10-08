@@ -1,8 +1,9 @@
 # analyze
-[![Build Status](https://travis-ci.org/izballs/analyze.svg?branch=main)](https://travis-ci.org/izballs/analyze) 
+[![Build Status](https://travis-ci.org/izballs/analyze.svg?branch=main)](https://travis-ci.org/izballs/analyze)  [![Heroku](https://analyzedreambroker.herokuapp.com/)]
 ## Dream Broker Code Challenge
 
 Build using Python and Flask
 
-[travis-ci](https://travis-ci.org/github/izballs/analyze)  
-[heroku](https://analyzedreambroker.herokuapp.com)
+Counts words, characters with and without spaces and english alphabets.
+
+Send json including "text":"your text" to https://analyzedreambroker.herokuapp.com/analyze
