@@ -1,5 +1,5 @@
 # analyze
-![Image of travis](https://travis-ci.org/izballs/analyze.svg?branch=main)  
+[![Build Status](https://travis-ci.org/izballs/analyze.svg?branch=main)](https://travis-ci.org/izballs/analyze) 
 ## Dream Broker Code Challenge
 
 Build using Python and Flask
