@@ -1,5 +1,5 @@
 # analyze
-[![Build Status](https://travis-ci.org/izballs/analyze.svg?branch=main)](https://travis-ci.org/izballs/analyze)  [![Heroku](https://analyzedreambroker.herokuapp.com/)]
+[![Build Status](https://travis-ci.org/izballs/analyze.svg?branch=main)](https://travis-ci.org/izballs/analyze)  [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://analyzedreambroker.herokuapp.com/)
 ## Dream Broker Code Challenge
 
 Build using Python and Flask
